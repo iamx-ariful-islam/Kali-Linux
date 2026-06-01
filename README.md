@@ -1,20 +1,19 @@
 # Kali-Linux hacks and setup
-- - - current release
+> A curated ecosystem of automation utilities, optimization tracks, and direct rolling-release synchronizers deployed specifically for advanced Kali Linux testing environments.
    
-### Kali-weekly images:
+### Kali-weekly images
+* **Rolling Builds Index:** [Official Kali Weekly Image Directory](https://cdimage.kali.org/kali-weekly/)
 
-- - - [href](https://cdimage.kali.org/kali-weekly/)
+[![](https://github.com/iamx-ariful-islam/Kali-Linux/blob/master/release/KaliLinux2020.4.png)](https://www.kali.org/downloads/)
 
-[![](https://github.com/nu11secur1ty/Kali-Linux/blob/master/release/KaliLinux2020.4.png)](https://www.kali.org/downloads/)
-
-- - - Download single inode
+* Download single inode
 ```bash
 apt install subversion -y
-svn checkout https://github.com/nu11secur1ty/Kali-Linux/trunk/$inode
+svn checkout https://github.com/iamx-ariful-islam/Kali-Linux/trunk/$inode
 ```
 
 -------------------------------------------------------------------------------------------
-# Introduce:
+## Introduce
 Is Kali Linux Right For You?
 
 As the distribution’s developers, you might expect us to recommend that everyone should be using Kali Linux. The fact of the matter is, however, that Kali is a Linux distribution specifically geared towards professional penetration testers and security specialists, and given its unique nature, it is NOT a recommended distribution if you’re unfamiliar with Linux or are looking for a general-purpose Linux desktop distribution for development, web design, gaming, etc.
@@ -33,46 +32,39 @@ However, if you’re a professional penetration tester or are studying penetrati
 -------------------------------------------------------------------------------------------
 
 ## OFFICIAL Updating Kali
-## For Virtual machines and others!
+### For Virtual machines and others!
 ```curl
-curl -s https://raw.githubusercontent.com/nu11secur1ty/Kali-Linux/master/2022-2023/Updating-Kali/k1.py | python3
+curl -s https://raw.githubusercontent.com/iamx-ariful-islam/Kali-Linux/master/2022-2023/Updating-Kali/k1.py | python3
 ```
 
-## Online Official Updater of the latest version:
+### Online Official Updater of the latest version:
 
-# Main Branch:
 ```bash
-curl -s https://raw.githubusercontent.com/nu11secur1ty/Kali-Linux/master/updater/branch.sh | bash
+curl -s https://raw.githubusercontent.com/iamx-ariful-islam/Kali-Linux/master/updater/branch.sh | bash
 ```
-- - `root`
-  
-- - - Check if you are with the latest copy of the Kali Linux VM
-  
-[link](https://www.kali.org/get-kali/#kali-virtual-machines)
-  
+* Check if you are with the latest copy of the Kali Linux VM
+
+> `root`
 ```bash
-curl -s https://raw.githubusercontent.com/nu11secur1ty/Kali-Linux/master/updater/online.sh | bash
+curl -s https://raw.githubusercontent.com/iamx-ariful-islam/Kali-Linux/master/updater/online.sh | bash
 ```
 
-## `NONE root`
+> `NONE root`
 
 ```bash
-sudo curl -s https://raw.githubusercontent.com/nu11secur1ty/Kali-Linux/master/updater/online.sh | bash
+sudo curl -s https://raw.githubusercontent.com/iamx-ariful-islam/Kali-Linux/master/updater/online.sh | bash
 ```
 or
 
 ## Direct updating the latest and current version:
 ***NOTE:***
 
-- - Please log in as root before you execute the command!
-
-- - - Check if you are with the latest copy of the Kali Linux VM
+* Please log in as root before you execute the command!
+* Check if you are with the latest copy of the Kali Linux VM
   
-[link](https://www.kali.org/get-kali/#kali-virtual-machines)
+[Kali Virtual Machines](https://www.kali.org/get-kali/#kali-virtual-machines)
 
-- 
 ```python
-curl -s https://raw.githubusercontent.com/nu11secur1ty/Kali-Linux/master/updater/official_up.py | python3
+curl -s https://raw.githubusercontent.com/iamx-ariful-islam/Kali-Linux/master/updater/official_up.py | python3
 ```
-demo:
-![](https://github.com/nu11secur1ty/Kali-Linux/blob/master/Docs/UpKaliLinux-2022.2.gif)
+![](https://github.com/iamx-ariful-islam/Kali-Linux/blob/master/Docs/UpKaliLinux-2022.2.gif)
